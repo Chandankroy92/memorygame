@@ -1,0 +1,49 @@
+body{
+	background-color: gray;
+	/*background-image: url('../images/bgimage1.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;*/
+}
+
+
+#container{
+	margin: 0 auto;
+	width: 650px;
+	font: 20px verdana;
+}
+#information{
+	text-align: center;
+	margin: 20px;
+
+}
+
+#information .text {
+		color: #FFF;
+	}
+#information .button {
+		background-color: black;
+		padding: 5px 10px;
+		color: #fff;
+		margin: 10px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	#images div {
+		float: left;
+		width: 100px;
+		height: 100px;
+		margin: 5px;
+		padding: 5px;
+		border: 4px solid black;
+		border-radius: 10px;
+		cursor: pointer;
+		background-color: #FFF;
+
+	}
+	#images div img {
+		width: 100px;
+		height: 100px;
+		display: none;
+
+	}
